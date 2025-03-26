@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars */
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Places video behind all content */
+}
+
+header{
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    opacity: 0.5;
+    text-shadow: blue 2px 2px;
+    text-align: center;
+    size: large;
+}
+
+header:hover{
+        background-color: azure;
+        color: black;
+        text-shadow: green 2px 2px;
+}
+footer{
+    color: white;
+}
+
+input{
+    background-image: url('input_con.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    border-color: aqua;
+}
+input:hover{
+    background-color: lightgreen;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 30px white;
+}
+
+button{
+    background-color: aqua;
+    border-width: 1px;
+    transform: translateX(50%);
+    border-color: green;
+}
+button:hover{
+    background-color: lightgreen;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+p:hover{
+    box-shadow: 0 0 10px white;
+    color: purple;
+}
+ul{
+    list-style: none;
+}
+
+.metadata{
+    text-align: center;
+    transition: all 0.5s ease;
+    transform: translateY(30%);
+    text-shadow: blue 1px 1px;
+    font-size: x-large;
+}
+.search_section{
+    text-align: center;
+    transform: translateY(200%);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.side-menu{
+    position:fixed;
+    background-color: black;
+    font-size: larger;
+    height: 100%;
+    width: 15%;
+    z-index: 1;
+    left : -15%;
+    transition: all 1s ease;
+
+}
+.side-menu a{
+    color: white;
+    display: block;
+}
+.side-menu a:hover{
+    text-shadow: 0 10px 10px blue;
+    background-color: gainsboro;
+}
+
+.menu{
+    border: none;
+    height: 40px;
+    width: 45px;
+    border-radius: 50%;
+    opacity: 0.5;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 1s ease;
+}
+
+.specifications{
+    position: fixed;
+    top: 25%;
+    left: 75%;
+    border: 2px solid black;
+    background: rgba(163, 185, 181, 0.2);
+
+    h3{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}

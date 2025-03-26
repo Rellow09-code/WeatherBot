@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="side-menu" id="side-menu">
+        <ul>
+            <li><a href="weather.html">Home</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="https://rellow09-code.github.io/Ani-play/web.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+
+
+        <header>
+            <h1>Weather-Bot</h1>
+        </header>
+        <header>
+            <b><h2>Geological location</h2></b>
+        </header>
+        <button class="menu" id="menu" onclick="toogle_menu()">menu</button>
+
+
+        <section class="search_section">
+            <input type="text" id="input" placeholder="Enter the city">
+            <button id="search">Search</button>
+            <p id="result"></p>
+        </section>
+
+
+        <section class="metadata">
+            <p id="last_updated"></p>
+            <p id="temperature"></p><br>
+
+            <p id="condition" style="text-decoration: underline;"></p>
+            <p id="text"></p>
+            <p><img id="icon"></img></p>
+        </section>
+
+        <section class="specifications">
+            <h3>Location details</h3>
+            <ul>
+                <li><p id="city"></p></li>
+                <li><p id="region"></p></li>
+                <li><p id="country"></p></li>
+                <li><p id="localTime"></p></li>
+            </ul>
+
+            <h3>weather specifications</h3>
+            <ul>
+                <li><p id="wind_kph"></p></li>
+                <li><p id="wind_degree"></p></li>
+                <li><p id="direction"></p></li>
+                <li><p id="feels_like"></p></li>
+            </ul>
+        </section>
+
+
+        <section>
+            <video autoplay muted loop>
+                <source src="home.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2020 Weather-Bot</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

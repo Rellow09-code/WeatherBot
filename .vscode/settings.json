@@ -1,0 +1,12 @@
+{
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.suggest.selectionMode": "always",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.suggest.filterGraceful": true,
+    "files.associations": {
+        "stdio.h": "c",
+        "omp.h": "c"
+    }
+}
